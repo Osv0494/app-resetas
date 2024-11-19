@@ -49,6 +49,7 @@ textArray.forEach((element)=>numbertTrasleter.push(alphabet[element]));
 let numberTrsleter = numbertTrasleter.join('');
 console.log(numberTrsleter);
  
+//Section trasleterHtml 
 
 /*
 <section id:"trasleter">
