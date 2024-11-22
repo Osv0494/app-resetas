@@ -1,6 +1,6 @@
-import { trasleterHTML,footer } from "./translate.js";
 /*Todo el codigo HTML sera escrito desde js*/
-
+import { trasleter } from "./translate.js";
+import { footer } from "./footer.js";
 const bodyHtml = document.body;
 const midudev = "https://youtu.be/YLvT1ELnaX4?si=v2FtQdXzr_HQhP0P";
 
@@ -9,12 +9,6 @@ bodyHtml.innerHTML = `
 <h1 id:'title'>
   Learning JavaScript with 
     <a href=${midudev}>Midudev</a>
-</h1>
-${trasleterHTML}
-<footer>
-  This is an educational program to learn html js react with 
-    <a href=${midudev}>Midudev</a></h1>
-</footer>
-`;
-
+</h1>`;
+trasleter();
 footer();

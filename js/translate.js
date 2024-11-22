@@ -50,6 +50,27 @@ let numberTrsleter = numbertTrasleter.join('');
 console.log(numberTrsleter);
  
 //Section trasleterHtml 
+export function trasleter(){
+  const trasleterHtml = document.createElement("section");
+  const body = document.body;
+  trasleterHtml.innerHTML = `
+  <h2 id:'trasleter-title'>Trasleter</h2>
+<p id:'trasleter-instruction'>Create a message encoder, the encoder must choose words that will be changed to numbers, simultaneously encrypting and hiding the message.</p>
+<div id:'trasleter-number'>
+  <div id:'trasleter-container-text'>
+    <div id:'trasleter-text-number'>Text</div> 
+    <input type="text"  placeholder="write a word...">>   
+  </div>
+  <button id:'trasleter-change'>change</button>
+  <div id:'trasleter-container-number'>
+    <div id:'trasleter-number-texr'>Number</div>
+    <input type="text"  placeholder="write the numbers...">>   
+  </div>
+</div>`;
+  body.appendChild(trasleterHtml);
+}
+
+/*
 export let trasleterHTML = `
 <section id:"trasleter">
 <h2 id:'trasleter-title'>Trasleter</h2>
@@ -65,14 +86,6 @@ export let trasleterHTML = `
     <input type="text"  placeholder="write the numbers...">>   
   </div>
 </div>
-</section>`;
+</section>`;*/
 
-export function footer() {
-  const footerHTML = document.createElement("footer");
-  const body = document.querySelector("body");
-  footerHTML.innerHTML = `<p>
-    <p>Clase prcatica de JS con Carlos de <a href="https://youtu.be/lduIpYA66mM">Punto JSON</a></p>    
-    </p>`;
 
-  body.appendChild(footerHTML);
-}
