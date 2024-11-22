@@ -6,4 +6,14 @@ export function footer() {
       </p>`;
   
     body.appendChild(footerHTML);
-  }
+  };
+
+    /*Footer
+    footer {
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.104);
+        margin-top: auto;
+      }
+    */
+

@@ -50,7 +50,7 @@ let numberTrsleter = numbertTrasleter.join('');
 console.log(numberTrsleter);
  
 //Section trasleterHtml 
-export function trasleter(){
+/*export function trasleter(){
   const trasleterHtml = document.createElement("section");
   const body = document.body;
   trasleterHtml.innerHTML = `
@@ -68,7 +68,7 @@ export function trasleter(){
   </div>
 </div>`;
   body.appendChild(trasleterHtml);
-}
+}*/
 
 /*
 export let trasleterHTML = `
