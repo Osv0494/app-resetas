@@ -1,4 +1,4 @@
-import { trasleterHTML } from "./translate.js";
+import { trasleterHTML,footer } from "./translate.js";
 /*Todo el codigo HTML sera escrito desde js*/
 
 const bodyHtml = document.body;
@@ -17,3 +17,4 @@ ${trasleterHTML}
 </footer>
 `;
 
+footer();
