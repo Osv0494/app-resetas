@@ -2,8 +2,7 @@ export function footer() {
     const footerHTML = document.createElement("footer");
     const body = document.querySelector("body");
     footerHTML.innerHTML = `<p>
-      <p>Clase prcatica de JS con Carlos de <a href="https://youtu.be/lduIpYA66mM">Punto JSON</a></p>    
-      </p>`;
+      This site is created in an educational way to reaffirm the knowledge of web development of HTML CSS JS. Created by  <a href="https://osv0494.github.io/">Osvaldo Paz</a></p>`;
   
     body.appendChild(footerHTML);
   };

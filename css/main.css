@@ -57,9 +57,18 @@
   /*Footer*/
   footer {
     width: 100%;
+    height: 100px;
     text-align: center;
     box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.104);
     margin-top: auto;
   }
-
-  
+  section{
+    border: 3px solid red;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .trasleter-number{
+    border: 4px solid blue;
+  }
