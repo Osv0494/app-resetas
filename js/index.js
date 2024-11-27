@@ -6,5 +6,4 @@ import { appTranslater } from "./appTranslate.js";
 header(); 
 appTranslater();
 footer();
-let text = 'hola';
-console.log(text);
+

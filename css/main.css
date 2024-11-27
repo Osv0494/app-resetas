@@ -69,6 +69,52 @@
     display: grid;
     place-items: center;
   }
+  #trasleter-title{
+    border: 4px solid blue;
+    width: 20%;
+    height: 15%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+  }
   .trasleter-number{
     border: 4px solid blue;
+    width: 60%;
+    height: 80%;
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+    "a a b c c"
+    "a a b c c";
+    padding: 20px;
+  }
+  /*
+     display: grid;
+    grid-template-areas:
+    "a a b c c"
+    "a a b c c";
+  */
+  #trasleter-text-number{
+    grid-area: a;
+  }
+  #trasleter-change{
+    grid-area: b;
+  }
+  #trasleter-container-number{
+    grid-area: c;
+  }
+  .trasleter-container{
+    width: 200px;
+    height: 200px;
+    display: grid;
+  }
+  .trasleter-number-texr{
+    width: 100%;
+    height: 160px;
+    margin-bottom: 0%;
+  }
+  .trasleter-label{
+    width: 200px;
+    height: 40px;
+    margin: 0;
   }
